@@ -1,7 +1,7 @@
-version: '3'
+version: '3.9'
 services:
   postgres:
-    image: postgres:13.3
+    image: postgres:16.2
     environment:
       - POSTGRES_USER=${TWITTER_DB_USERNAME}
       - POSTGRES_PASSWORD=${TWITTER_DB_PASSWORD}
