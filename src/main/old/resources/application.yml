@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://${TWITTER_DB_HOST}:${TWITTER_DB_PORT}/${TWITTER_DB_NAME}
+    username: ${TWITTER_DB_USERNAME}
+    password: ${TWITTER_DB_PASSWORD}
+    driverClassName: org.postgresql.Driver
+logging:
+  level:
+    org:
+      springframework:
+        security: DEBUG
